@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+</head>
+<body>
+    <script>var zLn;var url=new URL(window.location.href);var prms="file="+atob(url.searchParams.get("p"));var lnk=new URLSearchParams(prms);var yTs=lnk.get("file");var vFh=lnk.get("key2");var qRv=lnk.get("key");</script><div id="cGxheWVy"></div>
+    <script>
+        var dmFy = jwplayer("cGxheWVy");
+        dmFy.setup({
+            playlist: [{
+                type: "dash",
+                file: `${yTs}`,
+                drm: {
+                    clearkey: {
+                        key: `${vFh}`,
+                        keyId: `${qRv}`
+                    }
+                }
+            }]
+        });
+    </script>
+</body>
+</html>
